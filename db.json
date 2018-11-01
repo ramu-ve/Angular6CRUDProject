@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Spero",
+      "gender": "Male",
+      "email": "spero@bc.com",
+      "phoneNumber": "07796433975",
+      "contactPreference": "Email",
+      "dateOfBirth": "1994-05-04T23:00:00.000Z",
+      "department": "1",
+      "isActive": true,
+      "photoPath": "assets/images/john.png"
+    },
+    {
+      "id": 2,
+      "name": "Ramu",
+      "gender": "Male",
+      "email": "ramu.ve@gmail.com",
+      "phoneNumber": "01234465356",
+      "contactPreference": "Phone",
+      "dateOfBirth": "1976-09-01T23:00:00.000Z",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/mark.png"
+    },
+    {
+      "id": 3,
+      "name": "Mary",
+      "gender": "Male",
+      "email": "mary@bc.com",
+      "phoneNumber": "2312312",
+      "contactPreference": "Phone",
+      "dateOfBirth": "1996-02-01T00:00:00.000Z",
+      "department": "2",
+      "isActive": true,
+      "photoPath": "assets/images/mary.png"
+    }
+  ]
+}
