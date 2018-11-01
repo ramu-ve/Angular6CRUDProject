@@ -33,7 +33,7 @@
       "contactPreference": "Phone",
       "dateOfBirth": "1996-02-01T00:00:00.000Z",
       "department": "2",
-      "isActive": true,
+      "isActive": false,
       "photoPath": "assets/images/mary.png"
     }
   ]
