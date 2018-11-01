@@ -13,7 +13,7 @@ import { catchError } from '../../../node_modules/rxjs/operators';
 export class EmployeeService {
 
     baseUrl = 'http://localhost:3000/employees';
-    //baseUrl = 'http://localhost:39029/api/employees';
+    // baseUrl = 'http://localhost:39029/api/employees';
 
     constructor(private _httpClient: HttpClient) { }
     employeeList: Employee[] = [
@@ -47,7 +47,7 @@ export class EmployeeService {
             phoneNumber: 5432978640,
             dateOfBirth: new Date('3/25/1976'),
             department: '3',
-            isActive: true,
+            isActive: false,
             photoPath: 'assets/images/john.png'
         },
     ];
@@ -96,7 +96,7 @@ export class EmployeeService {
             }).pipe();
     }
 
-    deleteEmployee(id: number): Observable<void>{
+    deleteEmployee(id: number): Observable<void> {
        return this._httpClient.delete<void>(`${this.baseUrl}/${id}`).pipe();
     }
 }
